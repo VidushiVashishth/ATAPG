@@ -1,4 +1,4 @@
-[y, fs] = audioread('test.wav');
+[y, fs] = audioread('audio_test\test.wav'); %save wav files in folder names 'audio_test' in the same place as the .m files 
 frameSize = 240;
 overlap = 128;
 frameMat = enframe(y, frameSize, overlap);
