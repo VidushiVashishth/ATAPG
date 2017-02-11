@@ -1,4 +1,4 @@
-waveFile='soo.wav';
+waveFile='audio_test\soo.wav';
 frameSize=256;
 overlap=90;
 [y, fs] = audioread(waveFile); 
